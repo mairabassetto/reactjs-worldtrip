@@ -21,7 +21,12 @@ export function Divider() {
         textAlign='center'
         justify='center'
       >
-        <Text fontWeight='500' fontSize={['lg', 'xl', '2xl', '4xl']} color={['gray.600', 'black']} mt={['24px', '52px']}>
+        <Text 
+          fontWeight='500' 
+          fontSize={['lg', 'xl', '2xl', '4xl']} 
+          color={['gray.600', 'black']} 
+          mt={['24px', '52px']}
+        >
           Vamos nessa?<br />Então escolha seu continente
         </Text>
       </Flex></>

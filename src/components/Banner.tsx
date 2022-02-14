@@ -1,4 +1,4 @@
-import { Flex, Image, Text, VStack } from "@chakra-ui/react";
+import { Flex, Image, Text } from "@chakra-ui/react";
 
 export function Banner() {
   return (
@@ -22,7 +22,13 @@ export function Banner() {
             5 continentes, <br /> infinitas possibilidades
           </Text>
 
-          <Text color='gray.200' fontWeight='400' fontSize={['sm','md','xl']} maxWidth={['100%','100%','100%', '524px']} mt={5}>
+          <Text 
+            color='gray.200' 
+            fontWeight='400' 
+            fontSize={['sm','md','xl']} 
+            maxWidth={['100%','100%','100%', '524px']} 
+            mt={5}
+          >
             Chegou a hora de tirar do papel a viagem que você sempre sonhou.
           </Text>
         </div>
@@ -34,10 +40,7 @@ export function Banner() {
           src='/images/airplane.svg'
           alt='airplane'
         >
-
         </Image>
-
-
       </Flex>
     </Flex>
   );

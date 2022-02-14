@@ -41,8 +41,21 @@ export function Slides() {
               >
               <Link href={'/continents/europe'}>
                 <a>
-                  <Heading fontWeight='700' fontSize={['2xl', '3xl', '4xl', '5xl']} color='gray.50'> Europe </Heading>
-                  <Text fontWeight='700' fontSize={['sm', 'lg', 'xl', '2xl']} color='gray.50'> O continente mais antigo. </Text>
+                  <Heading 
+                    fontWeight='700' 
+                    fontSize={['2xl', '3xl', '4xl', '5xl']} 
+                    color='gray.50'
+                  > 
+                    Europe 
+                  </Heading>
+
+                  <Text 
+                    fontWeight='700' 
+                    fontSize={['sm', 'lg', 'xl', '2xl']} 
+                    color='gray.50'
+                  > 
+                    O continente mais antigo. 
+                  </Text>
                 </a>
               </Link>
             </Flex>
@@ -59,16 +72,29 @@ export function Slides() {
               bgPosition='center'
               bgSize='cover'
               textAlign='center'
-              >
+            >
               <Link href={'/continents/asia'}>
                 <a>
-                  <Heading fontWeight='700' fontSize={['2xl', '3xl', '4xl', '5xl']} color='gray.50'> Ásia </Heading>
-                  <Text fontWeight='700' fontSize={['sm', 'lg', 'xl', '2xl']} color='gray.50'> O continente mais tecnológico. </Text>
+                  <Heading 
+                    fontWeight='700' 
+                    fontSize={['2xl', '3xl', '4xl', '5xl']} 
+                    color='gray.50'
+                  > 
+                    Ásia 
+                  </Heading>
+
+                  <Text 
+                    fontWeight='700' 
+                    fontSize={['sm', 'lg', 'xl', '2xl']} 
+                    color='gray.50'
+                  > 
+                    O continente mais tecnológico. 
+                  </Text>
                 </a>
               </Link>
             </Flex>
           </SwiperSlide>
         </Swiper>
-      </Flex>
-    )
+    </Flex>
+  )
 }

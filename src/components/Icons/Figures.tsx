@@ -14,8 +14,22 @@ export function Figures({ icon, text}: IconProps) {
 
   return (
     <Flex direction={['row', 'column']} align='center' justify='center'>
-      {isMobile ? <Image src={`/images/${icon}.svg`} w='85px' h='85px' mb='60px' /> : <Text color='yellow' fontSize='3xl' mr='2'> • </Text>}
-      <Text fontWeight='500' color={['#47585B', 'black'] }fontSize={['lg', 'xl', '2xl']}> {text} </Text>
+      {isMobile ? <Image src={`/images/${icon}.svg`} w='85px' h='85px' mb='60px' /> :
+         <Text 
+          fontSize='3xl' 
+          mr='2'
+          color='yellow.500'
+        > 
+          • 
+        </Text>}
+
+      <Text 
+        fontWeight='500' 
+        fontSize={['lg', 'xl', '2xl']}
+        color={['gray.600', 'black']}
+      > 
+        {text} 
+      </Text>
     </Flex>
   );
 }

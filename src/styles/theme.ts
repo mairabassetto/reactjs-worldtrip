@@ -8,10 +8,14 @@ export const theme = extendTheme({
       500: "#718096",
       200: '#DADADA',
       100: "#EDF2F7",
+      60: "#999999",
       50: "#F5F8FA",
     },
     white: '#FFFFFF',
-    yellow: '#FFBA08',
+    yellow: {
+      500: '#FFBA08',
+      400: '#ECC94B'
+    },
   },
   fonts: {
     heading: 'Poppins',
